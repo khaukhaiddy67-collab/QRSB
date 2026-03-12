@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>QRSB Civil Registration Authority</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body{
+font-family: Tahoma;
+margin:0;
+padding:0;
+background:#f4f6f8;
+}
+
+header{
+background:#003366;
+color:white;
+padding:5px;
+display:flex;
+align-items:left;
+justify-content:left;
+}
+
+header img{
+width:80px;
+}
+
+nav{
+background:#222;
+text-align:right;
+padding:10px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin: 10px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.banner{
+background:#0055aa;
+color:white;
+text-align:center;
+padding: 5px;
+}
+
+.container{
+background:white;
+width:85%;
+margin:20px auto;
+padding:20px;
+border-radius:6px;
+}
+
+.button{
+background:#003366;
+color:white;
+padding:10px 15px;
+text-decoration:none;
+border-radius:5px;
+display:inline-block;
+margin-top:10px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:10px;
+}
+
+.gallery img{
+width:100%;
+border-radius:6px;
+}
+
+footer{
+background:#003366;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:20px;
+}
+
+/* Responsive */
+
+@media(max-width:700px){
+
+header{
+flex-direction:column;
+}
+
+nav a{
+display:block;
+margin:0;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<img src="logo.png">
+
+<div>
+<h1>QRSB</h1>
+<p>Civil Registration Authority</p>
+</div>
+
+</header>
+
+<nav>
+
+<a href="index.html">Home |</a>
+<a href="services.html">Services |</a>
+<a href="download.html">Download Form |</a>
+<a href="submit.html">Submit Form |</a>
+<a href="contact.html">Contact</a>
+
+</nav>
+
+<div class="banner">
+
+<h2>National Civil Registration Portal</h2>
+
+<br>Register births, deaths and manage identification records</br>
+
+</div>
+
+<div class="container">
+
+<h2>Welcome to QRSB</h2>
+
+<p>
+QRSB is responsible for processing birth and death certificates and maintaining
+the national identification database.
+</p>
+
+<h3>Responsibilities</h3>
+
+<ul>
+
+<li>Processing Birth Certificates</li>
+<li>Processing Death Certificates</li>
+<li>Maintaining National Identification Database</li>
+<li>Providing Civil Registration Services</li>
+
+</ul>
+
+<a class="button" href="download.html">Download Birth Registration Form</a>
+
+</div>
+
+<div class="container">
+
+<h2>Service Gallery</h2>
+
+<div class="gallery">
+
+<img src="img1.jpeg">
+<img src="img2.jpeg">
+<img src="img3.jpg">
+
+</div>
+
+</div>
+
+<footer>
+
+<p>© 2026 QRSB Civil Registration Authority</p>
+
+</footer>
+
+</body>
+
+</html>
